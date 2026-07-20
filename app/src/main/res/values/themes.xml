@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MakanMana" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/spice_red</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/spice_red</item>
+        <item name="colorOnPrimaryContainer">@color/white</item>
+        <item name="colorSecondary">@color/spice_amber</item>
+        <item name="colorOnSecondary">@color/charcoal</item>
+        <item name="colorSurface">@color/cream</item>
+        <item name="colorOnSurface">@color/charcoal</item>
+        <item name="colorSurfaceVariant">@color/cream_dark</item>
+        <item name="android:colorBackground">@color/cream</item>
+        <item name="colorOnBackground">@color/charcoal</item>
+        <item name="android:statusBarColor">@color/spice_red</item>
+    </style>
+
+    <style name="Theme.MakanMana" parent="Base.Theme.MakanMana" />
+
+    <!-- Rounded, elevated card look reused across the app -->
+    <style name="Widget.MakanMana.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">3dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+</resources>

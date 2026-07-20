@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Dark theme. -->
+    <style name="Base.Theme.MakanMana" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/spice_red</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/spice_red_dark</item>
+        <item name="colorOnPrimaryContainer">@color/white</item>
+        <item name="colorSecondary">@color/spice_amber</item>
+        <item name="colorOnSecondary">@color/charcoal</item>
+        <item name="colorSurface">@color/night_surface</item>
+        <item name="colorOnSurface">@color/night_on_surface</item>
+        <item name="colorSurfaceVariant">@color/night_surface</item>
+        <item name="android:colorBackground">@color/night_bg</item>
+        <item name="colorOnBackground">@color/night_on_surface</item>
+        <item name="android:statusBarColor">@color/spice_red_dark</item>
+    </style>
+
+    <style name="Widget.MakanMana.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cardBackgroundColor">@color/night_surface</item>
+    </style>
+</resources>

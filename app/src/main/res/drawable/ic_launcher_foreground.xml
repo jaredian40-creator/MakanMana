@@ -1,0 +1,35 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:name="content"
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.82"
+        android:scaleY="0.82">
+
+        <!-- Knife (blade top-left, handle bottom-right) -->
+        <group
+            android:name="knife"
+            android:pivotX="54"
+            android:pivotY="54"
+            android:rotation="-45">
+            <path
+                android:fillColor="#F5333D"
+                android:pathData="M50.5,58 L50.5,23 L53,17 L60,31 L57.5,58 Z M50.5,56 H57.5 V92 H50.5 Z" />
+        </group>
+
+        <!-- Spoon (bowl top-right, handle bottom-left) -->
+        <group
+            android:name="spoon"
+            android:pivotX="54"
+            android:pivotY="54"
+            android:rotation="45">
+            <path
+                android:fillColor="#F5333D"
+                android:pathData="M41,28 a13,16 0 1,0 26,0 a13,16 0 1,0 -26,0 Z M50.5,44 H57.5 V92 H50.5 Z" />
+        </group>
+    </group>
+</vector>

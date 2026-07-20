@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- MakanMana warm, appetite-forward palette -->
+    <color name="spice_red">#E23744</color>       <!-- primary -->
+    <color name="spice_red_dark">#B71C2B</color>
+    <color name="spice_amber">#F4A300</color>      <!-- secondary / rating -->
+    <color name="cream">#FFF8F2</color>            <!-- surface / background -->
+    <color name="cream_dark">#F3E9E0</color>
+    <color name="charcoal">#2B2B2B</color>         <!-- on-surface text -->
+    <color name="charcoal_muted">#6E6E6E</color>
+    <color name="leaf_green">#3E8E5A</color>       <!-- distance / open now -->
+
+    <!-- Dark theme surfaces -->
+    <color name="night_bg">#161311</color>
+    <color name="night_surface">#211D1A</color>
+    <color name="night_on_surface">#F2E9E2</color>
+</resources>
